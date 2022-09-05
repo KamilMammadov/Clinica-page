@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+   width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    z-index: 999;
+}
+
+header .logo{
+    width: 15%;
+}
+
+header .logo img{
+    width: 100%;
+}
+
+header nav{
+    color: #fff;
+   
+}
+header nav a{
+    color: #fff;
+    font-weight: 800;
+    font-size: 23px;
+    display: inline-block;
+   padding: 25px 10px;
+   
+}
+
+header .btn a{
+    background-color: #fff;
+    padding: 15px 35px;
+    font-size: 18px;
+    color: #252525;
+    border-radius: 40px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#warning{
+    background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/Banner-home-shop.jpg?id=22130);
+    padding: 18rem 0;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+}
+#warning .news{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+#warning .news::before{
+    content: 'FFP3 Mask';
+    position: absolute;
+    top: -126px;
+    left: -50px;
+    font-size: 190px;
+    width: 100%;
+    font-weight: bold;
+    color: #d9d9d9;
+    z-index: 1;
+    opacity: calc(20%);
+}
+
+
+#warning .news .left{
+    width: 50%;
+    font-size: 45px;
+    color: #fff;
+    position: relative;
+    z-index: 3;
+}
+
+ 
+
+#warning .news .left p{
+    font-size: 20px;
+    margin-right: 40px;
+    padding-top: 19px;
+}
+#warning .news .right{
+    width: 30%;
+    z-index: 2;
+}
+
+#warning .news .right img{
+    width: 100%;    
+}
+#warning .news .left a{
+    display: inline-block;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #006ba6;
+    padding: 15px 25px;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+#warning .news .left a:hover{
+    background-color: #1ca4ee;
+}
+
+#shopping{
+    margin-top: 100px;
+    padding: 100px;
+}
+
+#shopping .masks{
+    position: relative;
+}
+#shopping .masks .texttop{
+    text-align: center;
+    font-size: 36px;
+ 
+}
+#shopping .masks .texttop::before{
+    content: 'Masks';
+    position: absolute;
+    top: -131px;
+    left: 0;
+    font-size: 175px;
+    width: 100%;
+    font-weight: bold;
+    color: #d9d9d9;
+    z-index: -1;
+    opacity: calc(20%);
+}
+
+
+
+
+
+
+#shopping .masks .bottom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+#shopping .masks .bottom .box{
+    width: 26%;
+    background-color: #f2f2f2;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+#shopping .masks .bottom .box:hover img{
+width: 100%;
+}
+#shopping .masks .bottom .box img{
+    width: 95%;
+    border-radius: 10px;
+    transition: 0.5s; 
+}
+#shopping .masks .bottom .box .img{
+  position: relative;
+}
+#shopping .masks .bottom .box .img .icon{
+    position: absolute;
+    top: 3%;
+    right: 2%;
+    width: 10%;
+    background-color: #fff;
+    text-align: center;
+    padding-bottom: 22px;
+    border-radius: 20px;
+  }
+  #shopping .masks .bottom .box .img .icon i{
+      margin-top: 22px;
+      transition: 0.5s;
+  }
+
+  #shopping .masks .bottom .box .img .icon i:hover{
+      color:#1ca4ee ;
+  }
+
+#shopping .masks .bottom .box .text .top a{
+font-size: 22px;
+width: 100%;
+color: #111111;
+}
+
+#shopping .masks .bottom .box .text{
+    padding: 20px;
+}
+
+#shopping .masks .bottom .box .text .price p{
+    
+    color: #223441;
+    font-weight: bold;
+    }
+#shopping .masks .bottom .box .text .price{
+    display: flex;
+    justify-content: space-between;
+}
+#shopping .masks .bottom .box .text .price i{
+    color:#8c8c8c ;
+}
+
+#shopping .masks .button{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#shopping .masks .button a{
+    display: inline-block;
+   
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #006ba6;
+    padding: 15px 25px;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+#shopping .masks .button a:hover{
+    background-color: #1ca4ee;
+}
+
+#quality{
+    background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/quality-banner.jpg?id=22083);
+    background-position: center;
+    background-size: cover;
+  padding: 10rem 0;
+text-align: center;
+position: relative;
+z-index: -2;
+}
+
+#quality .text{
+    width: 57%;
+    color: #fff;
+    z-index: 1;
+}
+
+#quality .text::before{
+    content: 'Quality';
+    position: absolute;
+    top: 30px;
+    left: -296px;
+    font-size: 175px;
+    width: 100%;
+    font-weight: bold;
+    color: #d9d9d9;
+    z-index: -1;
+    opacity: calc(35%);
+}
+#quality .text h2{
+    font-size: 37px;
+}
+
+#quality .text p{
+    font-size: 20px;
+   padding: 0 100px;
+   margin-top: 20px;
+}
+
+#quality .text .btnn{
+    display: inline-block;
+    margin-top: 20px;
+  color: #006ba6;
+    font-size: 20px;
+    font-weight: bold;
+    background-color:#fff ;
+    padding: 15px 25px;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+#quality .text .btnn:hover{
+    background-color: #006ba6;
+    color: #fff; ;
+}
